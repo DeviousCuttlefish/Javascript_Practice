@@ -28,6 +28,6 @@ document.querySelectorAll('.user').forEach(item => {
 
 document.querySelectorAll('.group').forEach(box => {
     box.addEventListener('click', e => {
-        alert(`User group is: ${box.id}`);
+        alert(`User is in group: ${box.id}`);
     })
 })
